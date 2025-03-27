@@ -43,9 +43,9 @@ prediction = model.predict(data_scaled)
 # Mostrar resultado
 st.markdown("---")
 if prediction[0] == 0:
-    st.text("No tiene diabetes 😊")
+    st.success("No tiene diabetes 😊")
 else:
-    st.text("Tiene diabetessss 😔")
+    st.error("Tiene diabetes 😔")
 
 
 st.markdown("---")
