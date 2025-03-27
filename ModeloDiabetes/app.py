@@ -45,7 +45,7 @@ st.markdown("---")
 if prediction[0] == 0:
     st.text("No tiene diabetes 😊")
 else:
-    st.text("Tiene diabetes 😔")
+    st.text("Tiene diabetessss 😔")
 
 
 st.markdown("---")
